@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "685606354020",
+    "project_id": "notesummery",
+    "storage_bucket": "notesummery.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685606354020:android:d02716bd8d8309b1327371",
+        "android_client_info": {
+          "package_name": "com.markoapps.aisummerizer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwiGMa1twSh1D1_r8vKillQYaNuaBhnL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

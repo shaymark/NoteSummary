@@ -1,6 +1,7 @@
 package com.markoapps.aisummerizer.di
 
 import androidx.room.Room
+import com.google.firebase.functions.FirebaseFunctions
 import com.markoapps.aisummerizer.data.local.AiLocalDataSource
 import com.markoapps.aisummerizer.data.local.JsonListConverter
 import com.markoapps.aisummerizer.data.local.db.AppDatabase
@@ -17,6 +18,9 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val appModule = module {
+
+    single { FirebaseFunctions.getInstance() } // ✅ define FirebaseFunctions singleton
+
     single {
         Room.databaseBuilder(
             androidContext(),
